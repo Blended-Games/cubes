@@ -85,18 +85,20 @@ public class Target : MonoBehaviour
         {
             elapsedTime += Time.deltaTime;
             float progress = elapsedTime / maxTime;
-            float alpha = Mathf.Lerp(0.5f, 1f, progress);
+            float alpha = Mathf.Lerp(0.25f, 1f, progress);
             temp.a = alpha;
             meshRenderer.material.color = temp;
 
             yield return null;
         }
         
+        yield return new WaitForSeconds(0.2f);
+        
         while (elapsedTime > 0)
         {
             elapsedTime -= Time.deltaTime;
             float progress = elapsedTime / maxTime;
-            float alpha = Mathf.Lerp(0.5f, 1f, progress);
+            float alpha = Mathf.Lerp(0.25f, 1f, progress);
             temp.a = alpha;
             meshRenderer.material.color = temp;
 

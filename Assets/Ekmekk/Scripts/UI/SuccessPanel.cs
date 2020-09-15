@@ -17,6 +17,9 @@ public class SuccessPanel : MonoBehaviour
     [SerializeField] private TextMeshProUGUI time;
     [SerializeField] private TextMeshProUGUI gainCoin;
     [SerializeField] private TextMeshProUGUI percent;
+    [SerializeField] private TextMeshProUGUI successText;
+
+    private string[] successes = {"Good Job!", "Fabolous!", "Excellent!"};
 
     void Awake()
     {
@@ -38,7 +41,10 @@ public class SuccessPanel : MonoBehaviour
         gainCoin.text = "100";
 
         time.text = Convert.ToInt16(gameManager.elapsedTime).ToString() + " seconds";
-        percent.text = "%"+CalculatePercent();
+        percent.text = "%" + CalculatePercent();
+
+        int index = Random.Range(0, successes.Length);
+        successText.text = successes[index];
 
         retry.onClick.AddListener(() => { LevelManager.instance.RetryLevel(); });
         next.onClick.AddListener(() => { LevelManager.instance.NextLevel(); });
