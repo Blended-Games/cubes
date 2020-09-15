@@ -25,7 +25,7 @@ public class HintSystem : MonoBehaviour
             Hint();
     }
 
-    public void Hint()
+    public bool Hint()
     {
         List<int> IDlist = new List<int>();
 
@@ -36,7 +36,7 @@ public class HintSystem : MonoBehaviour
         }
 
         if(IDlist.Count == 0)
-            return;
+            return false;
         
         int randomIndex = Random.Range(0, IDlist.Count);
 
@@ -47,5 +47,7 @@ public class HintSystem : MonoBehaviour
                 target.Hint();
             }
         }
+
+        return true;
     }
 }

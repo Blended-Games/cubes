@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HintButton : MonoBehaviour
+public class UndoButton : MonoBehaviour
 {
     private Button button;
     private RectTransform rectTransform;
@@ -17,34 +16,24 @@ public class HintButton : MonoBehaviour
         button = GetComponent<Button>();
         rectTransform = GetComponent<RectTransform>();
 
-        button.onClick.AddListener(Hint);
+        button.onClick.AddListener(Undo);
 
         FindObjectOfType<GameManager>().OnGameEnd1 += () => { button.enabled = false; };
     }
 
-    void Hint()
+    void Undo()
     {
         button.enabled = false;
 
-        bool isHint = HintSystem.instance.Hint();
+        bool isUndo = UndoSystem.instance.Undo();
 
-        if (isHint)
-        {
-            StartCoroutine(DisableHint());
-        }
-        else
+        if (!isUndo)
         {
             rectTransform.DOShakePosition(1, 10, 100, 180).OnComplete(() => button.enabled = true);
         }
-    }
-
-    IEnumerator DisableHint()
-    {
-        image.enabled = false;
-
-        yield return new WaitForSeconds(5);
-
-        image.enabled = true;
-        button.enabled = true;
+        else
+        {
+            button.enabled = true;
+        }
     }
 }

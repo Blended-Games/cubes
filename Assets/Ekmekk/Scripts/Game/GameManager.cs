@@ -12,7 +12,9 @@ public class GameManager : MonoBehaviour
 
     public float elapsedTime;
 
-    public Action<bool> OnGameEnd;
+    public Action<bool> OnGameEnd2;
+    public Action OnGameEnd1;
+    public Action OnWin;
 
     private void Awake()
     {
@@ -31,23 +33,26 @@ public class GameManager : MonoBehaviour
     {
         if (isGameEnd)
             return;
-
+    
+        
         foreach (MainCube cube in mainCubes)
         {
             if (!cube.isMovementDone)
                 return;
         }
 
+        OnGameEnd1?.Invoke();
+
         foreach (Target target in targetList)
         {
             if (target.isEmpty)
             {
-                Lose();
+                StartCoroutine(Lose());
                 return;
             }
         }
 
-        Win();
+        StartCoroutine(Win());
     }
 
     private void Update()
@@ -58,15 +63,18 @@ public class GameManager : MonoBehaviour
         elapsedTime += Time.deltaTime;
     }
 
-    void Win()
+    IEnumerator Win()
     {
+        OnWin?.Invoke();
         isGameEnd = true;
-        OnGameEnd?.Invoke(true);
+        yield return new WaitForSeconds(2);
+        OnGameEnd2?.Invoke(true);
     }
 
-    void Lose()
+    IEnumerator Lose()
     {
         isGameEnd = true;
-        OnGameEnd?.Invoke(false);
+        yield return new WaitForSeconds(1);
+        OnGameEnd2?.Invoke(false);
     }
 }

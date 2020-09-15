@@ -52,7 +52,7 @@ public class Target : MonoBehaviour
             if (mainCube.id == id)
             {
                 Color temp = mainCube.GetComponent<MeshRenderer>().material.color;
-                temp.a = 0f;
+                temp.a = 0.5f;
                 meshRenderer.material.color = temp;
             }
         }
@@ -85,18 +85,18 @@ public class Target : MonoBehaviour
         {
             elapsedTime += Time.deltaTime;
             float progress = elapsedTime / maxTime;
-            float alpha = Mathf.Lerp(0, 0.5f, progress);
+            float alpha = Mathf.Lerp(0.5f, 1f, progress);
             temp.a = alpha;
             meshRenderer.material.color = temp;
 
             yield return null;
         }
-
+        
         while (elapsedTime > 0)
         {
             elapsedTime -= Time.deltaTime;
             float progress = elapsedTime / maxTime;
-            float alpha = Mathf.Lerp(0f, 0.5f, progress);
+            float alpha = Mathf.Lerp(0.5f, 1f, progress);
             temp.a = alpha;
             meshRenderer.material.color = temp;
 

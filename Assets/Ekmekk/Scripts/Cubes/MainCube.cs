@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 
 public class MainCube : MonoBehaviour, Clickable
@@ -48,20 +49,13 @@ public class MainCube : MonoBehaviour, Clickable
 
     public void OnClickDown()
     {
-        currentMovementCount = 0;
-        movementCount = 0;
-        isOnTarget = false;
-        isMovementDone = false;
+        Reset();
+    }
 
-        ClonableIndicatorActive(true);
-
-        if (currentTarget != null)
-        {
-            cubeCloner.DestroyAll();
-            cubeLooper.DestroyAll();
-            currentTarget.isEmpty = true;
-            currentTarget = null;
-        }
+    public void Undo()
+    {
+        Reset();
+        transform.DOJump(startPos, 10, 1, 0.5f);
     }
 
     public void OnClickUp()
@@ -74,6 +68,7 @@ public class MainCube : MonoBehaviour, Clickable
         }
         else
         {
+            UndoSystem.instance.Move(this);
             ClonableIndicatorActive(false);
             isOnTarget = true;
             currentTarget = target;
@@ -110,6 +105,24 @@ public class MainCube : MonoBehaviour, Clickable
         {
             if (indicator != null)
                 indicator.enabled = isActive;
+        }
+    }
+
+    void Reset()
+    {
+        currentMovementCount = 0;
+        movementCount = 0;
+        isOnTarget = false;
+        isMovementDone = false;
+
+        ClonableIndicatorActive(true);
+
+        if (currentTarget != null)
+        {
+            cubeCloner.DestroyAll();
+            cubeLooper.DestroyAll();
+            currentTarget.isEmpty = true;
+            currentTarget = null;
         }
     }
 }

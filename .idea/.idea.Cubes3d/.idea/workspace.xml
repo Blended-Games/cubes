@@ -14,9 +14,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/Game/HintSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/ColorUtil.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2FEAF16E-8000-4E0C-ADAE-3F2E05F2A3FA/2e/e5ce9b4e/SetupCoroutine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/UI/UndoButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/Game/UndoSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/Game/CameraShake.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/Game/LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB001E01-371B-4ADC-A200-13E0AC763896/16/31fef33d/NullReferenceException.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/Game/ParticuleEffect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/UI/HintButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/Cubes/CubeTargetFinder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/Data/LevelData.cs" root0="FORCE_HIGHLIGHTING" />
@@ -25,6 +28,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/Cubes/CubeAnimations.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../InputSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/Cubes/CubeCloner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/UI/GamePanel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/50FE65A4-93A0-4952-84F1-E3562EFBE38D/33/318dcd31/Boolean.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/Cubes/CubeLooper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/Cubes/Clickable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/Game/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -52,25 +57,29 @@
         <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/Target.cs" />
         <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/Game/BeatPercent.cs" />
         <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/Cubes/Cube.cs" />
-        <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/UI/HintButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/Data/WinPercent.cs" />
         <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/Data/LevelData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/InputSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/Game/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/Game/HintSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/Cubes/ParticleDestroy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/Cubes/Target.cs" />
         <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/Cubes/CubeCloner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/Cubes/MainCube.cs" />
-        <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/UI/SuccessPanel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/UI/FailPanel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/Game/GameOpening.cs" />
         <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/Game/LevelManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/Cubes/CubeAnimations.cs" />
         <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/Cubes/CubeLooper.cs" />
         <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/Game/CameraShake.cs" />
         <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/Cubes/LoopCube.cs" />
         <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/Cubes/CloneCube.cs" />
+        <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/InputSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/UI/SuccessPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/Cubes/Target.cs" />
+        <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/Game/ParticuleEffect.cs" />
+        <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/Game/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/Game/HintSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/UI/HintButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/UI/UndoButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/Cubes/MainCube.cs" />
+        <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/UI/FailPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/UI/GamePanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/Game/UndoSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/Game/GameOpening.cs" />
       </list>
     </option>
   </component>
@@ -103,10 +112,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="13968">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="13968" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -123,7 +132,8 @@
       <updated>1599053316125</updated>
       <workItem from="1599053342463" duration="19159000" />
       <workItem from="1599132027055" duration="1389000" />
-      <workItem from="1599867800852" duration="43708000" />
+      <workItem from="1599867800852" duration="44299000" />
+      <workItem from="1600133367957" duration="5154000" />
     </task>
     <servers />
   </component>
@@ -140,70 +150,70 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="427" height="464" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1599887664424" />
-    <state width="1493" height="59" key="GridCell.Tab.0.bottom" timestamp="1599931845791">
+    <state width="1493" height="59" key="GridCell.Tab.0.bottom" timestamp="1599944647703">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="59" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599931845791" />
-    <state width="1493" height="59" key="GridCell.Tab.0.center" timestamp="1599931845790">
+    <state width="1493" height="59" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599944647703" />
+    <state width="1493" height="59" key="GridCell.Tab.0.center" timestamp="1599944647703">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="59" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599931845790" />
-    <state width="1493" height="59" key="GridCell.Tab.0.left" timestamp="1599931845790">
+    <state width="1493" height="59" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599944647703" />
+    <state width="1493" height="59" key="GridCell.Tab.0.left" timestamp="1599944647703">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="59" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599931845790" />
-    <state width="1493" height="59" key="GridCell.Tab.0.right" timestamp="1599931845790">
+    <state width="1493" height="59" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599944647703" />
+    <state width="1493" height="59" key="GridCell.Tab.0.right" timestamp="1599944647703">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="59" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599931845790" />
-    <state width="1493" height="59" key="GridCell.Tab.1.bottom" timestamp="1599931860288">
+    <state width="1493" height="59" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599944647703" />
+    <state width="1493" height="59" key="GridCell.Tab.1.bottom" timestamp="1599944647704">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="59" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599931860288" />
-    <state width="1493" height="59" key="GridCell.Tab.1.center" timestamp="1599931860287">
+    <state width="1493" height="59" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599944647704" />
+    <state width="1493" height="59" key="GridCell.Tab.1.center" timestamp="1599944647704">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="59" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1599931860287" />
-    <state width="1493" height="59" key="GridCell.Tab.1.left" timestamp="1599931860287">
+    <state width="1493" height="59" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1599944647704" />
+    <state width="1493" height="59" key="GridCell.Tab.1.left" timestamp="1599944647703">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="59" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1599931860287" />
-    <state width="1493" height="59" key="GridCell.Tab.1.right" timestamp="1599931860287">
+    <state width="1493" height="59" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1599944647703" />
+    <state width="1493" height="59" key="GridCell.Tab.1.right" timestamp="1599944647704">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="59" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1599931860287" />
-    <state width="1493" height="59" key="GridCell.Tab.2.bottom" timestamp="1599931845580">
+    <state width="1493" height="59" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1599944647704" />
+    <state width="1493" height="59" key="GridCell.Tab.2.bottom" timestamp="1599944647704">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="59" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599931845580" />
-    <state width="1493" height="59" key="GridCell.Tab.2.center" timestamp="1599931845580">
+    <state width="1493" height="59" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599944647704" />
+    <state width="1493" height="59" key="GridCell.Tab.2.center" timestamp="1599944647704">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="59" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1599931845580" />
-    <state width="1493" height="59" key="GridCell.Tab.2.left" timestamp="1599931845580">
+    <state width="1493" height="59" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1599944647704" />
+    <state width="1493" height="59" key="GridCell.Tab.2.left" timestamp="1599944647704">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="59" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1599931845580" />
-    <state width="1493" height="59" key="GridCell.Tab.2.right" timestamp="1599931845580">
+    <state width="1493" height="59" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1599944647704" />
+    <state width="1493" height="59" key="GridCell.Tab.2.right" timestamp="1599944647704">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="59" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1599931845580" />
-    <state width="1493" height="59" key="GridCell.Tab.3.bottom" timestamp="1599931845581">
+    <state width="1493" height="59" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1599944647704" />
+    <state width="1493" height="59" key="GridCell.Tab.3.bottom" timestamp="1599944647705">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="59" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599931845581" />
-    <state width="1493" height="59" key="GridCell.Tab.3.center" timestamp="1599931845580">
+    <state width="1493" height="59" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599944647705" />
+    <state width="1493" height="59" key="GridCell.Tab.3.center" timestamp="1599944647705">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="59" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1599931845580" />
-    <state width="1493" height="59" key="GridCell.Tab.3.left" timestamp="1599931845580">
+    <state width="1493" height="59" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1599944647705" />
+    <state width="1493" height="59" key="GridCell.Tab.3.left" timestamp="1599944647705">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="59" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1599931845580" />
-    <state width="1493" height="59" key="GridCell.Tab.3.right" timestamp="1599931845581">
+    <state width="1493" height="59" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1599944647705" />
+    <state width="1493" height="59" key="GridCell.Tab.3.right" timestamp="1599944647705">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="59" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1599931845581" />
+    <state width="1493" height="59" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1599944647705" />
     <state x="601" y="114" key="RiderGenerateDialog" timestamp="1599879679099">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

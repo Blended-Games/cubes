@@ -14,8 +14,6 @@ public class SuccessPanel : MonoBehaviour
     [SerializeField] private GameObject panel;
     [SerializeField] private Button retry;
     [SerializeField] private Button next;
-    [SerializeField] private TextMeshProUGUI coin;
-    [SerializeField] private TextMeshProUGUI level;
     [SerializeField] private TextMeshProUGUI time;
     [SerializeField] private TextMeshProUGUI gainCoin;
     [SerializeField] private TextMeshProUGUI percent;
@@ -23,7 +21,7 @@ public class SuccessPanel : MonoBehaviour
     void Awake()
     {
         gameManager = FindObjectOfType<GameManager>();
-        gameManager.OnGameEnd += (isWin) =>
+        gameManager.OnGameEnd2 += (isWin) =>
         {
             if (isWin)
             {
@@ -39,8 +37,6 @@ public class SuccessPanel : MonoBehaviour
         PlayerPrefs.SetFloat("Coin", PlayerPrefs.GetFloat("Coin", 0) + 100);
         gainCoin.text = "100";
 
-        coin.text = PlayerPrefs.GetFloat("Coin", 0).ToString();
-        level.text = "Level " + PlayerPrefs.GetInt("currentLevel", 1);
         time.text = Convert.ToInt16(gameManager.elapsedTime).ToString() + " seconds";
         percent.text = "%"+CalculatePercent();
 

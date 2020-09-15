@@ -17,7 +17,7 @@ public class InputSystem : MonoBehaviour
         Input.multiTouchEnabled = false;
         mainCamera = Camera.main;
 
-        FindObjectOfType<GameManager>().OnGameEnd += (isWin) => { isGameEnd = true; };
+        FindObjectOfType<GameManager>().OnGameEnd1 += () => { isGameEnd = true; };
     }
 
     private void Update()

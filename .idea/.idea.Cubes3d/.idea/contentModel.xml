@@ -66,13 +66,17 @@
               <e p="GameOpening.cs" t="Include" />
               <e p="HintSystem.cs" t="Include" />
               <e p="LevelManager.cs" t="Include" />
+              <e p="ParticuleEffect.cs" t="Include" />
+              <e p="UndoSystem.cs" t="Include" />
               <e p="VibrationMTO.cs" t="Include" />
             </e>
             <e p="InputSystem.cs" t="Include" />
             <e p="UI" t="Include">
               <e p="FailPanel.cs" t="Include" />
+              <e p="GamePanel.cs" t="Include" />
               <e p="HintButton.cs" t="Include" />
               <e p="SuccessPanel.cs" t="Include" />
+              <e p="UndoButton.cs" t="Include" />
             </e>
           </e>
         </e>

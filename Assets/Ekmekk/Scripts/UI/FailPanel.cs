@@ -19,7 +19,7 @@ public class FailPanel : MonoBehaviour
     void Awake()
     {
         gameManager = FindObjectOfType<GameManager>();
-        gameManager.OnGameEnd += (isWin) =>
+        gameManager.OnGameEnd2 += (isWin) =>
         {
             if (!isWin)
             {
@@ -32,8 +32,6 @@ public class FailPanel : MonoBehaviour
     void Init()
     {
         panel.SetActive(true);
-        coin.text = PlayerPrefs.GetFloat("Coin", 0).ToString();
-        level.text = "Level " + PlayerPrefs.GetString("currentLevel", "1");
         time.text = Convert.ToInt16(gameManager.elapsedTime).ToString() + " seconds";
         retry.onClick.AddListener(() => { LevelManager.instance.RetryLevel(); });
     }
