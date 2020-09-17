@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Ekmekk/Scenes/opening.unity
+    guid: ec54352ee73319f459ea87fe7b8f1203
+  - enabled: 1
+    path: Assets/Ekmekk/Scenes/1.unity
+    guid: 13cfab524bd9f034ea2da0ea598094de
+  - enabled: 1
+    path: Assets/Ekmekk/Scenes/2.unity
+    guid: 3e025263c9c34d64c9e1cdea2f7f1f54
+  - enabled: 1
+    path: Assets/Ekmekk/Scenes/3.unity
+    guid: f5f2de4eb66bc9449bc999f54198f45e
+  - enabled: 1
+    path: Assets/Ekmekk/Scenes/4.unity
+    guid: 88da1812672a2804eb784bdd2ba517b7
+  - enabled: 1
+    path: Assets/Ekmekk/Scenes/5.unity
+    guid: 809c7329f3dafd1469a9b5af0947b4b0
+  - enabled: 1
+    path: Assets/Ekmekk/Scenes/6.unity
+    guid: fa88f303409cedb4b8dfeeddda48cfa6
+  - enabled: 1
+    path: Assets/Ekmekk/Scenes/7.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Ekmekk/Scenes/8.unity
+    guid: edf4ae225b82bdd419dfc90607f33c74
+  - enabled: 1
+    path: Assets/Ekmekk/Scenes/9.unity
+    guid: bdf4bab8ecd043e47a864aef6ce79e47
+  - enabled: 1
+    path: Assets/Ekmekk/Scenes/10.unity
+    guid: 6cebac835abdb1c40babc7150054734d
+  - enabled: 1
+    path: Assets/Ekmekk/Scenes/11.unity
+    guid: d5b6313d5078e6442a631ce3d298c1d2
+  - enabled: 1
+    path: Assets/Ekmekk/Scenes/12.unity
+    guid: 80c87220fbef7cf4e81f34e2cb5a5012
+  - enabled: 1
+    path: Assets/Ekmekk/Scenes/13.unity
+    guid: b2459b83b5144f74a9088491c46af96b
+  - enabled: 1
+    path: Assets/Ekmekk/Scenes/14.unity
+    guid: d69b704f7846da54e95a4e3e836e6f32
+  m_configObjects: {}
