@@ -14,18 +14,18 @@ public class LevelManager : MonoBehaviour
 
     public void NextLevel()
     {
-        PlayerPrefs.SetInt("currentLevel", PlayerPrefs.GetInt("currentLevel", 1) + 1);
         int nextSceneIndex = 0;
-        if (PlayerPrefs.GetInt("isLevelsEnd", 0) == 0)
+        if (PlayerPrefs.GetInt("isGameEnd", 0) == 0)
         {
             nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
             if (SceneManager.sceneCountInBuildSettings <= nextSceneIndex)
             {
-                PlayerPrefs.SetInt("isLevelsEnd", 1);
+                PlayerPrefs.SetInt("LastEndLevel", nextSceneIndex - 1);
+                PlayerPrefs.SetInt("isGameEnd", 1);
             }
         }
 
-        if (PlayerPrefs.GetInt("isLevelsEnd", 0) == 1)
+        if (PlayerPrefs.GetInt("isGameEnd", 0) == 1)
         {
             nextSceneIndex = Random.Range(4, SceneManager.sceneCountInBuildSettings);
         }

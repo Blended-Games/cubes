@@ -102,8 +102,11 @@ public class MainCube : MonoBehaviour, Clickable
 
     void CreateLoop()
     {
-        movementCount++;
-        cubeLooper.Loop(loopDir);
+        if (isOnTarget)
+        {
+            movementCount++;
+            cubeLooper.Loop(loopDir);
+        }
     }
 
     void ClonableIndicatorActive(bool isActive)

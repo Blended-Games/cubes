@@ -39,7 +39,8 @@ public class SuccessPanel : MonoBehaviour
     {
         panel.SetActive(true);
 
-        PlayerPrefs.SetFloat("Coin", PlayerPrefs.GetFloat("Coin", 0) + 100);
+        Debug.Log("Win");
+        
         gainCoin.text = "100";
 
         time.text = Convert.ToInt16(gameManager.elapsedTime) + " seconds";
