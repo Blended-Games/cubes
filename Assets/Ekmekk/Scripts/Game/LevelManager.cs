@@ -27,7 +27,10 @@ public class LevelManager : MonoBehaviour
 
         if (PlayerPrefs.GetInt("isGameEnd", 0) == 1)
         {
-            nextSceneIndex = Random.Range(4, SceneManager.sceneCountInBuildSettings);
+            do
+            {
+                nextSceneIndex = Random.Range(4, SceneManager.sceneCountInBuildSettings);
+            } while (nextSceneIndex == SceneManager.GetActiveScene().buildIndex);
         }
 
         PlayerPrefs.SetInt("currentSceneIndex", nextSceneIndex);
