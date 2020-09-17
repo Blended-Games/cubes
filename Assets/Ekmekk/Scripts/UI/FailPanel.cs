@@ -12,8 +12,6 @@ public class FailPanel : MonoBehaviour
 
     [SerializeField] private GameObject panel;
     [SerializeField] private Button retry;
-    [SerializeField] private TextMeshProUGUI coin;
-    [SerializeField] private TextMeshProUGUI level;
     [SerializeField] private TextMeshProUGUI time;
 
     void Awake()

@@ -11,14 +11,27 @@ public class Target : MonoBehaviour
 
     [SerializeField] public Vector3 pos;
     [SerializeField] public bool isEmpty = true;
-    [SerializeField] private bool left, right, up, down;
+    [SerializeField] private bool left, right, up, down, isMain;
     [HideInInspector] public Vector2 direction;
+
+    private float alpha, endAlpha;
 
     private void Awake()
     {
         meshRenderer = GetComponent<MeshRenderer>();
 
         pos = transform.position;
+
+        if (isMain)
+        {
+            alpha = 0.5f;
+            endAlpha = 1;
+        }
+        else
+        {
+            alpha = 0.1f;
+            endAlpha = 0.35f;
+        }
 
         if (up)
         {
@@ -52,7 +65,15 @@ public class Target : MonoBehaviour
             if (mainCube.id == id)
             {
                 Color temp = mainCube.GetComponent<MeshRenderer>().material.color;
-                temp.a = 0.5f;
+                if (isMain)
+                {
+                    temp.a = alpha;
+                }
+                else
+                {
+                    temp.a = alpha;
+                }
+
                 meshRenderer.material.color = temp;
             }
         }
@@ -85,21 +106,22 @@ public class Target : MonoBehaviour
         {
             elapsedTime += Time.deltaTime;
             float progress = elapsedTime / maxTime;
-            float alpha = Mathf.Lerp(0.25f, 1f, progress);
-            temp.a = alpha;
+
+            float newAlpha = Mathf.Lerp(alpha, endAlpha, progress);
+            temp.a = newAlpha;
             meshRenderer.material.color = temp;
 
             yield return null;
         }
-        
+
         yield return new WaitForSeconds(0.2f);
-        
+
         while (elapsedTime > 0)
         {
             elapsedTime -= Time.deltaTime;
             float progress = elapsedTime / maxTime;
-            float alpha = Mathf.Lerp(0.25f, 1f, progress);
-            temp.a = alpha;
+            float newAlpha = Mathf.Lerp(alpha, endAlpha, progress);
+            temp.a = newAlpha;
             meshRenderer.material.color = temp;
 
             yield return null;

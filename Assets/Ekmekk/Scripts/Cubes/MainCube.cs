@@ -45,6 +45,13 @@ public class MainCube : MonoBehaviour, Clickable
         cubeCloner = GetComponent<CubeCloner>();
         cubeAnimations = GetComponent<CubeAnimations>();
         cubeTargetFinder = GetComponent<CubeTargetFinder>();
+
+        Material material = GetComponent<MeshRenderer>().material;
+
+        foreach (MeshRenderer clonable in clonableIndicator)
+        {
+            clonable.material = material;
+        }
     }
 
     public void OnClickDown()

@@ -11,29 +11,29 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/Game/HintSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Downloads/ColorUtil.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2FEAF16E-8000-4E0C-ADAE-3F2E05F2A3FA/2e/e5ce9b4e/SetupCoroutine.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/UI/UndoButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/Game/UndoSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/Game/CameraShake.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/Game/LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB001E01-371B-4ADC-A200-13E0AC763896/16/31fef33d/NullReferenceException.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/Game/ParticuleEffect.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/UI/HintButton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/Cubes/CubeTargetFinder.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/Data/LevelData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/Cubes/MainCube.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/Cubes/Cube.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/Cubes/CubeAnimations.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../InputSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/Game/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/Cubes/CubeCloner.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/UI/GamePanel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/50FE65A4-93A0-4952-84F1-E3562EFBE38D/33/318dcd31/Boolean.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/Game/HintSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/ColorUtil.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/UI/UndoButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/Game/CameraShake.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB001E01-371B-4ADC-A200-13E0AC763896/16/31fef33d/NullReferenceException.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/Cubes/LoopCube.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/UI/HintButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/Cubes/CubeAnimations.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/Cubes/CubeLooper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/Cubes/Clickable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/Game/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/Cubes/LoopCube.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2FEAF16E-8000-4E0C-ADAE-3F2E05F2A3FA/2e/e5ce9b4e/SetupCoroutine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../InputSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/Cubes/CubeTargetFinder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/Data/LevelData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/Game/LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/Game/ParticuleEffect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/50FE65A4-93A0-4952-84F1-E3562EFBE38D/33/318dcd31/Boolean.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Ekmekk/Scripts/UI/GamePanel.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -59,7 +59,6 @@
         <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/Cubes/Cube.cs" />
         <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/Data/WinPercent.cs" />
         <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/Data/LevelData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/Cubes/ParticleDestroy.cs" />
         <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/Cubes/CubeCloner.cs" />
         <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/Game/LevelManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/Cubes/CubeAnimations.cs" />
@@ -73,14 +72,16 @@
         <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/Game/HintSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/UI/HintButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/UI/UndoButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/Cubes/MainCube.cs" />
         <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/UI/FailPanel.cs" />
         <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/UI/GamePanel.cs" />
         <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/Game/UndoSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/Game/GameOpening.cs" />
-        <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/Cubes/Target.cs" />
-        <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/UI/SuccessPanel.cs" />
         <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/Game/Levelinstructive.cs" />
+        <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/UI/SuccessPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/Cubes/MainCube.cs" />
+        <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/Cubes/ParticleDestroy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Editor/IOSPostProcessBuild.cs" />
+        <option value="$PROJECT_DIR$/Assets/Ekmekk/Scripts/Cubes/Target.cs" />
       </list>
     </option>
   </component>
@@ -135,7 +136,9 @@
       <workItem from="1599132027055" duration="1389000" />
       <workItem from="1599867800852" duration="44299000" />
       <workItem from="1600133367957" duration="5154000" />
-      <workItem from="1600203582925" duration="4577000" />
+      <workItem from="1600203582925" duration="4824000" />
+      <workItem from="1600294997171" duration="298000" />
+      <workItem from="1600308513990" duration="2560000" />
     </task>
     <servers />
   </component>

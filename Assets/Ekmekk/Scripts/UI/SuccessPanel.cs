@@ -14,12 +14,14 @@ public class SuccessPanel : MonoBehaviour
     [SerializeField] private GameObject panel;
     [SerializeField] private Button retry;
     [SerializeField] private Button next;
+    [SerializeField] private Image emojiImage;
     [SerializeField] private TextMeshProUGUI time;
     [SerializeField] private TextMeshProUGUI gainCoin;
     [SerializeField] private TextMeshProUGUI percent;
     [SerializeField] private TextMeshProUGUI successText;
+    [SerializeField] private Sprite[] emojis;
 
-    private string[] successes = {"Good Job!", "Fabolous!", "Excellent!"};
+    private string[] successes = {"Good Job!", "Fabulous!", "Excellent!"};
 
     void Awake()
     {
@@ -40,11 +42,14 @@ public class SuccessPanel : MonoBehaviour
         PlayerPrefs.SetFloat("Coin", PlayerPrefs.GetFloat("Coin", 0) + 100);
         gainCoin.text = "100";
 
-        time.text = Convert.ToInt16(gameManager.elapsedTime).ToString() + " seconds";
+        time.text = Convert.ToInt16(gameManager.elapsedTime) + " seconds";
         percent.text = "%" + CalculatePercent();
 
-        int index = Random.Range(0, successes.Length);
-        successText.text = successes[index];
+        int successTextIndex = Random.Range(0, successes.Length);
+        successText.text = successes[successTextIndex];
+
+        int emojiIndex = Random.Range(0, emojis.Length);
+        emojiImage.sprite = emojis[emojiIndex];
 
         retry.onClick.AddListener(() => { LevelManager.instance.RetryLevel(); });
         next.onClick.AddListener(() => { LevelManager.instance.NextLevel(); });
