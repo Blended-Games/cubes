@@ -1,7 +1,10 @@
-﻿using System;
+﻿using GameAnalyticsSDK;
+using GameAnalyticsSDK.Events;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -16,6 +19,7 @@ public class GameManager : MonoBehaviour
     public Action OnGameEnd1;
     public Action OnWin;
 
+    string sceneName="";
     private void Awake()
     {
         elapsedTime = 0;
@@ -29,6 +33,10 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    private void Start()
+    {
+      sceneName = SceneManager.GetActiveScene().name;
+    }
     private void CheckGame()
     {
         if (isGameEnd)
@@ -72,13 +80,15 @@ public class GameManager : MonoBehaviour
         PlayerPrefs.SetInt("currentLevel", currentLevel + 1);
         
         PlayerPrefs.SetFloat("Coin", PlayerPrefs.GetFloat("Coin", 0) + 100);
-        
+        GameAnalytics.NewProgressionEvent(GAProgressionStatus.Complete, "Level" + sceneName);
         OnGameEnd2?.Invoke(true);
     }
 
     IEnumerator Lose()
     {
+        GameAnalytics.NewProgressionEvent(GAProgressionStatus.Fail, "Level" +sceneName);
         yield return new WaitForSeconds(1);
         OnGameEnd2?.Invoke(false);
+
     }
 }
